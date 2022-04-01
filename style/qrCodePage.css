@@ -1,0 +1,92 @@
+.homepage_scantheQR_page{
+    display: flex;
+    width: 90%;
+    background-color: white;
+    height: 370px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.homepage_scantheQR_image{
+    background-position: center;
+    background-size: 150% 100%;
+    background-image: url('https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg');
+    width: 30%;
+    height: 100%;
+}
+.homepage_scantheQR_page_details{
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+.homepage_scantheQR_pay img{
+    width: 80%;
+    height: 30%;
+    margin-left: 20px;
+}
+.homepage_scantheQR_reward{
+    width: 75%;
+    margin-left: 20px;
+
+}
+.homepage_scantheQR{
+    width: 23%;
+}
+.homepage_scantheQR h3{
+    line-height: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.homepage_scantheQR_pay{
+    margin-top: 20px;
+}
+.homepage_scantheQR_reward ul li{
+    color: grey;
+    line-height: 25px;
+    font-size: 15px;
+}
+.homepage_scantheQR_reward p{
+    color: grey;
+    font-size: 13px;
+
+}
+.homepage_scantheQR_page_form{
+    display: flex;
+    gap: 2%;
+}
+.homepage_scantheQR_page_form div{
+    border: 1px solid gainsboro;
+    width: 90%;
+    height: 50px;
+}
+.homepage_scantheQR_page_form_countrycode{
+    display: flex;
+    justify-content: space-between;
+}
+.homepage_scantheQR_page_form_countrycode1{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+
+}
+.homepage_scantheQR_page_form_countrycode1 select{
+    height: 30%;
+    margin-top: 15px;
+    border: none;
+}
+.homepage_scantheQR_page_form_countrycode1 p{
+    margin-left: 10px;
+}
+.homepage_scantheQR_page_form_countrycode2 p{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.homepage_scantheQR_page_form_countrycode3{
+    background-color: #c83259;
+    text-align: center;
+    
+}
+.homepage_scantheQR_page_form_countrycode3 p{
+    font-size: 17px;
+    color: white;
+}

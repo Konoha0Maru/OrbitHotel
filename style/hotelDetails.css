@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(235, 236, 238);
+    font-family: sans-serif;
+    
+}
+.hotelDetails_main{
+    width: 85%;
+    background-color: white;
+    margin-left: 5%;
+    border: 1px solid rgb(235, 236, 238);
+}
+.hotelDetails_main_first{
+    margin-top: 20px;
+    display: flex;
+    height: 350px;
+    gap: 1%;
+
+}
+.hotelDetails_main_imagefirst{
+    width: 48%;
+    height: 100%;
+}
+.hotelDetails_main_imagefirst img{
+    width: 100%;
+    height: 100%;
+}
+.hotelDetails_main_second{
+    display: block;
+    width: 50%;
+}
+.hotelDetails_main_second_div{
+   width: 100%;
+   height: 48%;
+   display: flex;
+   margin-bottom: 2%;
+   gap: 10px;
+}
+.hotelDetails_main_second_div div{
+   width: 50%;
+   height: 100%;
+}
+.hotelDetails_main_second_div div img{
+   width: 100%;
+   height: 100%;
+}
+.hotelDetails_ul{
+   width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.hotelDetails_ul button{
+   background-color: #c83259;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    
+}
+.hotelDetails_ul_li{
+   display: flex;
+   gap: 40px;
+   font-size: 14px;
+   font-weight: 600;
+   color: grey;
+}
+.hotelDetails_ul_li li{
+   list-style: none;
+}
+.hotelDetails_Overview{
+   width: 100%;
+   display: flex;
+   gap: 2%;
+   margin-left: 20px;
+   justify-content: space-between;
+}
+.hoteDetals_popular{
+   display: flex;
+   justify-content: space-between;
+}
+.hoteDetals_popular_first{
+   display: block;
+   width: 40%;
+}
+.hoteDetals_popular_first_div{
+   display: flex;
+    width: 100%;
+}
+.hoteDetals_popular_first_div img{
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+}
+.hoteDetals_popular_first_div p{
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.hoteDetals_popular_second{
+    display: block;
+    width: 50%;
+}
+.hoteDetals_popular_second_div{
+    display: flex;
+    width: 100%;
+}
+.hoteDetals_popular_second_div img{
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+}
+.hoteDetals_popular_second_div p{
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.hotelDetals_cleaning{
+    display: flex;
+   justify-content: space-between;
+}
+.hoteDetals_cleaning_first{
+   display: block;
+   width: 50%;
+}
+.hoteDetals_cleaning_first_div{
+   display: flex;
+    width: 100%;
+}
+.hoteDetals_cleaning_first_div img{
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+}
+.hoteDetals_cleaning_first_div p{
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.hoteDetals_cleaning_second{
+    display: block;
+    width: 50%;
+}
+.hoteDetals_cleaning_second_div{
+    display: flex;
+    width: 100%;
+}
+.hoteDetals_cleaning_second_div img{
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+}
+.hoteDetals_cleaning_second_div p{
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.hotelDetails_Overview_second{
+   display: block;
+   width: 30%;
+}
+.hotelDetails_explore{
+    display: block;
+
+}
+.hotelDetails_chooseRoom{
+   display: block;
+   width: 85%;
+   margin-left: 70px;
+}
+.hoteDetails_chooseRoom_first{
+   display: flex;
+   gap: 1%;
+}
+.checkOut_img{
+   display: flex;
+   background-color: white;
+   width: 50%;
+   height: 60px;
+   border: 1px solid grey;
+   border-radius: 2px;
+   line-height: 10px
+   
+}
+.checkOut_img img{
+   height: 30px;
+   width: 30px;
+   margin-top: 20px;
+}
+.checkOut_img p{
+   margin-left: 20px;
+}
+.hoteDetails_chooseRoom_first button{
+   width: 30%;
+   background-color: #c83259;
+   color: white;
+   font-weight: 600;
+   font-size: 14px;
+   border-radius: 2px;
+}
+.hetelDetails_reserveroom_pay{
+    display: flex;
+    justify-content: space-between;
+}
+.hetelDetails_reserveroom_pay button{
+    background-color: #c83259;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    font-weight: 600;
+
+}
+.hotelDetails_reserveroom_div h4{
+   margin-left: 10px;
+}
+.hotelDetails_reserveroom_div_details{
+   margin-left: 10px;
+}
+.hotelDetails_reserveroom_div_details_extra{
+   margin-left: 10px;
+}
+.hotelDetails_reserveroom{
+   display: flex;
+   gap: 1%;
+   width: 85%;
+   margin-left: 70px;
+   margin-top: 30px;
+   
+}
+.hotelDetails_reserveroom_div{
+   width: 100%;
+   background-color: white;
+}
+.hotelDetails_reserveroom_img{
+   width: 100%;
+   height: 200px;
+}
+.hotelDetails_reserveroom_img img{
+    width: 100%;
+    height: 100%;
+}

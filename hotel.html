@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel_Page</title>
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/qrCodePage.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/hotel.css">
+    
+</head>
+<body>
+    <div id="nav"></div>
+    <div class="hotelpage_seconddiv_first">
+        <div id="goingTo">
+            <div class="checkOut_img">
+                <img src="https://media.istockphoto.com/vectors/pin-icon-vector-vector-id874715852?k=6&m=874715852&s=612x612&w=0&h=sT6mjH7gYw2x_ZrS8X8Ute2C2rbQDAd7BOP_jE2ALNU=" alt="">
+            </div>
+            <p>Goving to</p>    
+            <p>Australia</p>
+        </div>
+        <div id="checkIn">
+            <div class="checkOut_img">
+                <img src="https://static.vecteezy.com/system/resources/previews/002/387/838/non_2x/calendar-icon-flat-style-isolated-on-white-background-free-vector.jpg" alt="">
+            </div>
+            <div>
+                <p>Check-In</p>
+                <label for="date">Jan 30</label> 
+            </div>
+        </div>
+        <div id="checkOut">
+            <div class="checkOut_img">
+                <img src="https://static.vecteezy.com/system/resources/previews/002/387/838/non_2x/calendar-icon-flat-style-isolated-on-white-background-free-vector.jpg" alt="">
+            </div>
+            <div>
+                <p>Check-Out</p>    
+                <label for="date">Jan 31</label>
+            </div>
+        </div>
+        <div id="travels">
+            <div class="checkOut_img">
+                <img src="https://img.myloview.com/stickers/contact-icon-vector-poeple-icon-isolated-on-white-background-contact-icon-simple-and-modern-for-app-web-and-design-700-232093561.jpg" alt="">
+            </div>
+            <div>
+                <p>Travels</p> 
+                <p>1 room, 2 travelers</p>
+            </div>
+               
+        </div>
+        <div class="hotelPage_seconddiv_third">
+            <button>Search</button>
+        </div>
+    </div>
+    <div class="hotelPage_main">
+    <div class="hotelPage_main_first">
+        <div class="hotelPage_main_first_map">
+            <div id="mapshow">
+                <iframe id="map"></iframe>
+            </div>
+            <p>View in a map</p>
+        </div>
+        <hr>
+        <h3>Search by property name</h3>
+        <div class="hotelPage_main_searchLogo">
+            <div id="search_logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzool-SCEOLbsYqjq8PLea1065TJIzOCy5MvQmIrSSQmzYpMOCUMr21VoCnM6bNYkNz3Y&usqp=CAU" alt="">
+            </div>
+            <p>e.g. Best Western</p>
+        </div>
+        <hr>
+        <h3>Filter by</h3>
+        <h4>Popular filters</h4>
+        <div class="hotelPage_main_popular">
+            <div>
+                <input type="checkbox" name="" id=""> 
+                <label for="">All inclusive</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id=""> 
+                <label for="">Hot tub</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id=""> 
+                <label for="">Ocean view</label>
+            </div>
+           <div>
+            <input type="checkbox" name="" id=""> 
+            <label for="">House boat</label>
+           </div>
+            <div>
+                <input type="checkbox" name="" id=""> 
+                <label for="">Bed & breakfast</label>
+            </div>
+        </div>
+        <h4>Your budget</h4>
+        <div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Less than $75</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">$75 to $125</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">$125 to $200</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">$200 to $300</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Greater than $300</label>
+            </div>
+        </div>
+        <h4>Guest rating</h4>
+        <div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Any</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Wonderful 4.5+</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Very good 4+</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Good 3.5+</label>
+            </div>
+            
+        </div>
+        <h4>Cleaning and safety practices</h4>
+        <div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Enhanced cleaning</label>
+            </div>
+            <p>Properties taking additional steps to clean and sanitize</p>
+        </div>
+        <h4>Payment type</h4>
+        <div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="Fully refundable">Fully refundable</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Reserve now, pay later</label>
+            </div>
+            
+        </div>
+        <h4>Property type</h4>
+        <div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">House boat</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Bed & breakfast</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Hotel</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Castle</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Tree house</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Cabin</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+            <label for="">Motel</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Villa</label>
+            </div>
+            
+        </div>
+        <h4>Traveler experience</h4>
+        <div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">LGBTQ welcomuing</label>
+                <p>See Properties that pledge to make all guests fell safe, welcome, and respected.</p>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Business friendly</label>
+                <p>See Properties with amenities to help you work comfortably, like WiFi and breakfast.</p>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Family friendly</label>
+                <p>See Properties that include family essentials like in-room conveniences and activities for the kids.</p>
+            </div>
+            
+        </div>
+        <h4>Meal plans available</h4>
+        <div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Breakfast included</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Lunch included</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Dinner included</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">All inclusive</label>
+            </div>
+        </div>
+            <h4>Amenities</h5>
+            <div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Hot tub</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Ocean view</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Free airport shuttle</label>
+                </div>
+               <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Parking</label>
+               </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Spa</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Pet friendly</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Kitchen</label>
+                </div>                              
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Electric car charging station</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Water park</label>
+                </div>
+               <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Free WiFi</label>
+               </div>
+            </div>
+            <h4>Orbitz Rewards</h4>
+            <div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">VIP Access properties</label>
+                    <p>Top-rated stays with member perks</p>
+                </div>
+            </div>
+            <h4>Amenities</h4>
+            <div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Elevator</label>
+                </div>
+               <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Accessible bathroom</label>
+               </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Roll-in shower</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">In-room accessibility</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Service animals allowed</label>
+                </div>
+               <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Stair-free path to entrance</label>
+               </div>
+               <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Sign language-capable staff</label>
+               </div>
+            </div>
+        </div>
+        <div class="hotelPage_main_second">
+            <div class="hotelPage_main_second_first">
+                <h4 class="hotelPage_main_second_first_h4">See how we pick our recommended properties</h4>
+                <div class="hotelPage_main_second_sortBy">
+                    <div>
+                        <p>Sort by</p>
+                        <p id="hotelPage_main_second_sortBy_p">Recommended</p>
+                    </div>
+                    <div><select name="" id=""></select></div>
+                </div>
+            </div>
+           <div class="hotelPage_main_second_second">
+                <div class="hotelPage_main_second_second_first">
+                    <div class="hotelPage_main_second_second_first_img">
+                        <a href="hotelDetails.html">
+                        <img src="https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/10000000/9630000/9625800/9625794/0f2dc522_b.jpg" alt="">
+                    </a>
+                    </div>
+                
+                    <div class="hotelPage_main_second_second_first_details">
+                        <div>
+                            <h3>Spicers Vineyards Estate</h3>
+                        <h5>Luxury Hunter Valley Ratreat</h5>
+                        <p>Intimate & romantic with spacious rooms, fire places & spa baths. Award-winning restaurant and day spa on site.</p>
+                        <p>4.6/5 <span>Exceptional (86 reviews)</span></p>
+                        </div>
+                        
+                        <div class="hotelPage_main_second_second_first_price">
+                            <h2>$458</h2>
+                            <p>$503 total</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <div class="hotelPage_main_second_second">
+            <div class="hotelPage_main_second_second_first">
+                <div class="hotelPage_main_second_second_first_img">
+                    <a href="hotelDetails.html">
+                    <img src="https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/46000000/45770000/45764800/45764718/4c4a2000_b.jpg" alt="">
+                </a>
+                </div>
+            
+                <div class="hotelPage_main_second_second_first_details">
+                    <div>
+                        <h3>Double Tree by Hilton Perth Waterfront</h3>
+                    <h5>Up to 10% Off Prepay and Save. Book now</h5>
+                    <p>Full prepayment upon booking. Free changes and cancellations up to 72 hours before arrival.</p>
+                    <p>Fully refundable</p>
+                    <p>4.7/5 <span>Wonderful (247 reviews)</span></p>
+                    </div>
+                    
+                    <div class="hotelPage_main_second_second_first_price">
+                        <h2>$127</h2>
+                        <p>$140 total</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div class="hotelPage_main_second_second">
+        <div class="hotelPage_main_second_second_first">
+            <div class="hotelPage_main_second_second_first_img">
+                <a href="hotelDetails.html">
+                <img src="https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/2000000/1840000/1838000/1837940/d3871234_b.jpg" alt="">
+            </a>
+            </div>
+        
+            <div class="hotelPage_main_second_second_first_details">
+                <div>
+                    <h3>Hotel Realm</h3>
+                <h5>Offer -  Breakfast & Parking Include</h5>
+                <p>For a limited time, rates include a la carte breakfast, secure parking and a noon checkout. Flexible cancellation.</p>
+                <p>Fully refundable</p>
+                <p>4.3/5 <span>Exceptional (998 reviews)</span></p>
+                </div>
+                
+                <div class="hotelPage_main_second_second_first_price">
+                    <h2>$202</h2>
+                    <p>$222 total</p>
+                </div>
+            </div>
+        </div>
+     </div>
+        <div class="hotelPage_main_second_second">
+        <div class="hotelPage_main_second_second_first">
+            <div class="hotelPage_main_second_second_first_img">
+                <a href="hotelDetails.html">
+                <img src="https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/610000/607900/607881/1a85ef61_b.jpg" alt="">
+            </a>
+            </div>
+        
+            <div class="hotelPage_main_second_second_first_details">
+                <div>
+                    <h3>PARKROYAL Melbourne Airport</h3>
+                <h5>Exceptional Melbourne Airport Location</h5>
+                <p>Located opposite Melbourne Airport, with direct access to terminals via Sky Bridge. Relax in comfort before or ofter your flight.</p>
+                <p>Fully refundable</p>
+                <p>4.3/5 <span>Excellent (1,057 reviews)</span></p>
+                </div>
+                
+                <div class="hotelPage_main_second_second_first_price">
+                    <h2>$176</h2>
+                    <p>$193 total</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="hotelPage_main_second_second">
+        <div class="hotelPage_main_second_second_first">
+            <div class="hotelPage_main_second_second_first_img">
+                <a href="hotelDetails.html">
+                <img src="https://images.trvl-media.com/hotels/5000000/4490000/4482700/4482661/16f69534.jpg" alt="">
+            </a>
+            </div>
+        
+            <div class="hotelPage_main_second_second_first_details">
+                <div>
+                    <h3>Burbury Hotel & Apartments</h3>
+                <p>Fully refundable</p>
+                <p>4.3/5 <span>Excellent (1,002 reviews)</span></p>
+                </div>
+                
+                <div class="hotelPage_main_second_second_first_price">
+                    <h2>$153</h2>
+                    <p>$169 total</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="hotelPage_main_second_second">
+            <div class="hotelPage_main_second_second_first">
+                <div class="hotelPage_main_second_second_first_img">
+                    <a href="hotelDetails.html">
+                        <img src="https://images.trvl-media.com/hotels/4000000/3090000/3081900/3081878/cd2c00fc.jpg" alt="">
+                    </a>
+                </div>
+                        
+                <div class="hotelPage_main_second_second_first_details">
+                        <div>
+                            <h3>Cheteau Elan At The Vintage</h3>
+                            <p>Fully refundable</p>
+                            <p>4.4/5 <span>Excellent (999 reviews)</span></p>
+                        </div>
+                                    
+                    <div class="hotelPage_main_second_second_first_price">
+                        <h2>$121</h2>
+                        <p>$133 total</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotelPage_main_second_second">
+        <div class="hotelPage_main_second_second_first">
+                <div class="hotelPage_main_second_second_first_img">
+                    <a href="hotelDetails.html">
+                    <img src="https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5830000/5828900/5828888/1e2eca3e_b.jpg" alt="">
+                </a>
+                </div>
+            
+                <div class="hotelPage_main_second_second_first_details">
+                    <div>
+                        <h3>Best Western Plus The Ranges Karratha</h3>
+                        <h5>Quiet oasis tropical gardens</h5>
+                        <p>Our bright, modern King apartments are completely selfcontained, featuring full kitchens and washing machines.</p>
+                    <p>Fully refundable</p>
+                    <p>4.8/5 <span>Exceptional (129 reviews)</span></p>
+                    </div>
+                    
+                    <div class="hotelPage_main_second_second_first_price">
+                        <h2>$184</h2>
+                        <p>$202 total</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotelPage_main_second_second">
+            <div class="hotelPage_main_second_second_first">
+                <div class="hotelPage_main_second_second_first_img">
+                <a href="hotelDetails.html">
+                 <img src="https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/4000000/3910000/3908300/3908205/63cf4aab_b.jpg" alt="">
+                </a>
+                </div>
+            
+                <div class="hotelPage_main_second_second_first_details">
+                    <div>
+                        <h3>Spicers Tamarind Retreat</h3>
+                        <h5>Rainforest Fringed Luxury</h5>
+                        <p>An Asian-influenced oasis that feels like you're a world away, surronunded by natural beauty and tranquility.</p>
+                    <p>Breakfast included</p>
+                    <p>4.8/5 <span>Exceptional (89 reviews)</span></p>
+                    </div>
+                    
+                    <div class="hotelPage_main_second_second_first_price">
+                        <h2>$557</h2>
+                        <p>$612 total</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotelPage_main_second_second">
+            <div class="hotelPage_main_second_second_first">
+                <div class="hotelPage_main_second_second_first_img">
+                    <a href="hotelDetails.html">
+                    <img src="https://images.trvl-media.com/hotels/1000000/10000/2300/2220/13fb1fad.jpg" alt="">
+                </a>
+                </div>
+            
+                <div class="hotelPage_main_second_second_first_details">
+                    <div>
+                        <h3>Four Seasons Hotel Sydney</h3>
+                    <p>Fully refundable</p>
+                    <p>4.7/5 <span>Exceptional (1,7372 reviews)</span></p>
+                    </div>
+                    
+                    <div class="hotelPage_main_second_second_first_price">
+                        <h2>$220</h2>
+                        <p>$242 total</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotelPage_main_second_second">
+            <div class="hotelPage_main_second_second_first">
+                <div class="hotelPage_main_second_second_first_img">
+                    <a href="hotelDetails.html">
+                    <img src="https://images.trvl-media.com/hotels/1000000/20000/12000/11974/284e3075.jpg" alt="">
+                </a>
+                </div>
+            
+                <div class="hotelPage_main_second_second_first_details">
+                    <div>
+                        <h3>Shangri-La Sydney</h3>
+                    <p>Fully refundable</p>
+                    <p>4.3/5 <span>Excellent (1,933 reviews)</span></p>
+                    </div>
+                    
+                    <div class="hotelPage_main_second_second_first_price">
+                        <h2>$194</h2>
+                        <p>$213 total</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+
+    <div id="QRCode"></div>
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module" src="/scripts/hotel.js">
+   
+    
+</script>

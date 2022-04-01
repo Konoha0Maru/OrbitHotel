@@ -1,0 +1,36 @@
+.homepage_footer{
+    display: flex;
+    width: 95%;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.homepage_footer ul li{
+    list-style: none;
+}
+.homepage_footer a{
+    text-decoration: none;
+    color: #007e8f;
+    line-height: 30px;
+    font-size: 13px;
+}
+.homepage_footer ul li img{
+    margin-top: 23px;
+    margin-left: 22px;
+
+}
+.homepage_footer ul li h4{
+    color: black;
+    font-weight: 700;
+}
+.homepage_hr{
+    width: 90%;
+}
+.homepage_footer_last{
+    font-size: 13px;
+    color: grey;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

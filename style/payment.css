@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+}
+.paymentPage_main{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.paymentPage_main_paymentoption{
+    display: flex;
+    gap: 10px;
+}
+.paymentPage_main_paymentoption img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+.paymentPage_main_paymentoption p{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.paymentPage_main_options{
+    display: flex;
+    gap: 20px;
+    line-height: 0px;
+}
+.paymentPage_payNow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.paymentPage_pay{
+    display: block;
+}
+.paymentPage_pay button{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #c83259;
+}
+.paymentPage_payNow ul li{
+    color: grey;
+    font-size: 13px;
+}
+.paymentPage_main_options p{
+    color: grey;
+    font-size: 13px;
+}

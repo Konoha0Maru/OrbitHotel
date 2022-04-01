@@ -1,0 +1,456 @@
+body{
+    background-color: rgb(235, 236, 238);
+}
+#homepage_afterheader{
+    margin-top: 0px;
+    background-size: 100% auto;
+    background-position: bottom;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2022/01/06/ORB_JanuarySale_imgB_1920x1440_20220106.jpg');
+    border: 0.1px solid #2e7b99;
+    font-family: sans-serif;
+}
+#homepage_firstDiv{
+    background-color: white;
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    color: rgb(94, 90, 90);
+    border: 1px solid white;
+}
+#homepage_firstDiv ul{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+#homepage_firstDiv ul li{
+    list-style: none;
+}
+#homepage_firstDiv ul li a{
+    text-decoration: none;
+    color: rgb(81, 80, 80);
+}
+#homepage_ul1{
+    display: flex;
+    gap: 49px;
+    font-size: 15px;
+    font-weight: 750;
+    text-align: center;
+}
+.homepage_seconddiv_first{
+    display: flex;
+    gap: 15px;
+    width: 90%;
+    margin-left: 50px;
+    font-size: 15px;
+}
+#goingTo{
+    display: flex;
+    border: 1px solid grey;
+    width: 130%;
+    height: 50px;
+}
+#goingTo img{
+    margin-top: 10px;
+}
+#goingTo p{
+    margin-left: 10px;
+}
+#checkIn{
+    display: flex;
+    border: 1px solid grey;
+    width: 50%;
+    height: 50px;
+}
+#checkIn p{
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+#checkIn label{
+    margin-left: 10px;
+}
+#checkOut{
+    display: flex;
+    border: 1px solid grey;
+    width: 50%;
+    height: 50px;
+}
+#checkOut p{
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+#checkOut label{
+    margin-left: 10px;
+}
+.checkOut_img{
+    height: 30px;
+    width: 30px;
+}
+.checkOut_img img{
+    width: 100%;
+    height: 100%;
+}
+#travels{
+    display: flex;
+    border: 1px solid grey;
+    width: 50%;
+    height: 50px;
+}
+#travels img{
+    margin-top: 10px;
+}
+#travels p{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.homepage_seconddiv_second{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.homepage_seconddiv_third{
+    width:150px;
+    margin: auto;
+    margin-top: 30px;
+}
+.homepage_seconddiv_third button{
+    font-size:17px;
+    background-color: #c83259;
+    color: white;
+    height: 50px;
+    width: 170px;
+    box-shadow: 0px;
+    border: 0px;
+}
+.homepage_thirddiv{
+    margin-top: 40px;
+    margin-left: 70px;
+    font-family: sans-serif;
+}
+.homepage_thirddiv_h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    line-height: 10px;
+}
+.homepage_thirddiv_p{
+    font-size: 18px;
+    color: white;
+    line-height: 10px;
+}
+#yourDeals{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 60px;
+    border: 1px solid skyblue;
+}
+#yourDeals a{
+    text-decoration: none;
+    color: #054872;
+}
+#yourDeals_a{
+    width: 95%;
+    height: 60%;
+    margin-top: 10%;
+}
+.homepage_travel{
+    height: 200px;
+    margin-top: 30px;
+}
+.homepage_travel_first{
+    display: flex;
+    width: 90%;
+    height: 180px;
+    margin: auto;
+    gap: 2%;
+    
+    /* box-shadow:  */
+}
+.homepage_travel_first div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gainsboro;
+    background-color: rgb(219, 221, 224);
+}
+.homepage_travel_first img{
+    width: 100%;
+    height: 80%;
+}
+.homepage_featuredOffer{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+}
+.homepage_featuredOffer_h2{
+    font-size:30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.homepage_featuredOffer_first{
+    display: flex;
+    gap: 2%;
+}
+.homepage_featuredOffer_first_first{
+    width: 100%;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh');
+    border: 0.1px solid rgb(235, 236, 238);
+    height: 180px;
+    font-family: sans-serif;
+    color: white;
+}
+.homepage_featuredOffer_first_second{
+    width: 100%;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh');
+    border: 0.1px solid rgb(235, 236, 238);
+    height: 180px;
+    font-family: sans-serif;
+    color: white;
+}
+.homepage_featuredOffer_first_third{
+    width: 100%;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh');
+    border: 0.1px solid rgb(235, 236, 238);
+    height: 180px;
+    font-family: sans-serif;
+    color: white;
+}
+.homepage_featuredOffer_first_four{
+    width: 100%;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh');
+    border: 0.1px solid rgb(235, 236, 238);
+    height: 180px;
+    font-family: sans-serif;
+    color: white;
+}
+.homepage_featuredOffer_first img{
+    width: 100%;
+}
+.homepage_featuredOffer_first h2{
+    margin-top: 120px;
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 10px;
+}
+.homepage_featuredOffer_first p{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.homepage_membersave{
+    display: flex;
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+    gap: 2%;
+    
+}
+.homepage_membersave_first{
+    background-position: center;
+    background-size: 100% auto;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2020/12/02/ORB_Storefront_BigMarquee_MODwithrewards_1124x480_V5.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh');
+    height: 200px;
+    width: 65%;
+    font-family: sans-serif;
+}
+.homepage_membersave_second{
+    background-color: white;
+    margin-top: 200px;
+    height: 90px;
+}
+.homepage_membersave_second h3{
+    margin-left: 10px;
+    line-height: 20px;
+}
+.homepage_membersave_second p{
+    margin-left: 10px;
+    color: grey;
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+.homepage_membersave_secondfirst{
+    width: 40%;
+    height: 300px;
+    font-family: sans-serif;
+}
+.homepage_membersave_secondfirst_one{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 45%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.homepage_membersave_secondfirst_one img{
+    width: 80%;
+    height: 100%;
+}
+.homepage_membersave_secondfirst_one1 {
+    width: 70%;
+}
+.homepage_membersave_secondfirst_two{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+.homepage_membersave_secondfirst_two img{
+    width: 80%;
+    height: 100%;
+}
+.homepage_membersave_secondfirst_two1{
+    width: 70%;
+}
+.homepage_membersave_secondfirst p{
+    font-size: 15px;
+    color: gray;
+}
+.topDeals{
+    background-position: center;
+    background-size: 100% auto;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2020/12/03/ORB_Storefront_Deals_2740x1484-V1.jpg');
+    height: 250px;
+    width: 63%;
+    margin-left: 62px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    border: 1px solid rgb(248, 238, 213);
+}
+.topDeals_one{
+    margin-top: 200px;
+    margin-left: 20px;
+    line-height: 10px;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+}
+.topDeals_one h4{
+    font-weight: 700;
+}
+.homepage_helpkeep{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.homepage_helpkeep_first{
+    display: flex;
+    gap: 1%;
+    width: 100%;
+}
+.homepage_helpkeep_div{
+    border: 1px solid rgb(177, 174, 174);
+    background-color: white;
+    width: 100%;
+}
+.homepage_helpkeep_div h3{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.homepage_helpkeep_div p{
+    font-size: 13px;
+    color: grey;
+    margin-left: 10px;
+}
+.homepage_travelingTyps{
+    width: 90%;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.homepage_travelingTyps_first{
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    height: 250px;
+    font-family: sans-serif;
+}
+.homepage_travelingTyps_imageDiv{
+    width: 70%;
+    background-position: bottom;
+    background-size: 120% 100%;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg');
+    height: 100%;
+    border: 1px solid gainsboro;
+}
+.homepage_travelingTyps_imageDiv1{
+    width: 70%;
+    background-position: bottom;
+    background-size: 120% 100%;
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg');
+    height: 100%;
+    border: 1px solid gainsboro;
+}
+.homepage_travelingTyps_imageDiv_details{
+    color: white;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.homepage_travelingTyps_imageDiv_details p{
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+}
+.homepage_travelingTyps_imageDiv_details h2{
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%);
+}
+.homepage_travelingTyps_imageDiv_details div{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.homepage_travelingTyps_imageDiv_details a{
+    text-decoration: none;
+    color: rgb(37, 111, 145);
+}
+.homepage_travelingTyps_imageDiv_details_first p{
+    text-shadow: none;
+    align-content: center;
+    margin-top: 5px;
+}
+.homepage_moreDestinations{
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+}
+.homepage_moreDestinations_first{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    gap: 1%;
+}
+.homepage_moreDestinations_first div{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.homepage_moreDestinations_first div h3{
+    margin-left: 10px;
+}
+.homepage_moreDestinations_first div select{
+    height: 30%;
+    border: none;
+}
