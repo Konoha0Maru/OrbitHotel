@@ -9,18 +9,18 @@
 }
 .homepage_footer a{
     text-decoration: none;
-    color: #007e8f;
+    color: #068ea0;
     line-height: 30px;
     font-size: 13px;
 }
 .homepage_footer ul li img{
-    margin-top: 23px;
-    margin-left: 22px;
+    margin-top: 21px;
+    margin-left: 23px;
 
 }
 .homepage_footer ul li h4{
     color: black;
-    font-weight: 700;
+    font-weight: 800;
 }
 .homepage_hr{
     width: 90%;
